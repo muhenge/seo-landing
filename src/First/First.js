@@ -26,19 +26,19 @@ const First = () => {
         <div className="position-absolute top-100 start-50 translate-middle w-50">
         <div className="row">
             <div className="col">
-              <div className="card shadow shadow-soft border-light text-center p-5">
+              <div className="card shadow border-light text-center p-5">
                 <div className="card-body">
                 </div>
               </div>
             </div>
             <div className="col ">
-              <div className="card shadow-soft border-light text-center shadow p-5">
+              <div className="card shadow border-light text-center shadow p-5">
                 <div className="card-body">
                 </div>
               </div>
             </div>
             <div className="col ">
-              <div className="card shadow shadow-soft border-light text-center p-5">
+              <div className="card shadow border-light text-center p-5">
                 <div className="card-body">
                 </div>
               </div>
@@ -47,7 +47,25 @@ const First = () => {
           </div>
       </header>
       <section className="">
-        
+        <div className="container my-10">
+          <div className="d-flex justify-content-center align-content-center">
+            <span className="display-1">How it works</span>
+          </div>
+          <div className="row justify-content-center align-content-center my-10">
+            <div className="col">
+              <div className="card shadow-soft border-light text-center p-5">
+              </div>
+            </div>
+            <div className="col">
+            <div className="card shadow-soft border-light text-center p-5">
+              </div>
+            </div>
+            <div className="col">
+            <div className="card shadow-soft border-light text-center p-5">
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
