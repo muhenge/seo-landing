@@ -1,30 +1,4 @@
-/*
 
-=========================================================
-* Impact Design System - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/impact-design-system
-* Copyright 2010 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/impact-design-system/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap");
-/*
- * 	Default theme - Owl Carousel CSS File
- */
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
     --blue: #5e72e4;
     --indigo: #31316A;
@@ -17979,9 +17953,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
   h3 {
         page-break-after: avoid;
     }
-  @    page {
-        size: a3;
-    }
+
 
     body {
         min-width: 992px !important;
@@ -19709,7 +19681,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url("owl.video.play.png") no-repeat;
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -33975,7 +33946,6 @@ textarea[resize="horizontal"] {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-image: url("../assets/img/patterns/wave.svg");
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 1450px 160px;
@@ -34003,9 +33973,7 @@ textarea[resize="horizontal"] {
     top: -10px;
 }
 
-.pattern-soft {
-    background-image: url("../assets/img/patterns/wave-soft.svg");
-}
+
 
 .organic-shape:not(.position-relative) {
     position: absolute;
