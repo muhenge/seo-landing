@@ -26,19 +26,19 @@ const First = () => {
         <div className="position-absolute top-100 start-50 translate-middle w-50">
         <div className="row">
             <div className="col">
-              <div className="card shadow p-5">
+              <div className="card shadow shadow-soft border-light text-center p-5">
                 <div className="card-body">
                 </div>
               </div>
             </div>
             <div className="col ">
-              <div className="card shadow p-5">
+              <div className="card shadow-soft border-light text-center shadow p-5">
                 <div className="card-body">
                 </div>
               </div>
             </div>
             <div className="col ">
-              <div className="card shadow p-5">
+              <div className="card shadow shadow-soft border-light text-center p-5">
                 <div className="card-body">
                 </div>
               </div>
