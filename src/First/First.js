@@ -1,13 +1,13 @@
 import React from "react";
 import Cards from "./Cards"
-
+import Header from "../Header/Header";
 import "./First.css";
 
 const First = () => {
   return (
     <>
     
-      <header id="header-one" className="vh-100 position-relative">
+      <Header id="header-one">
         <nav className="navbar navbar-light bg-light">
           <a className="navbar-brand" href="#">
             Navbar
@@ -42,7 +42,7 @@ const First = () => {
             </div>
           </div>
           </div>
-      </header>
+          </Header>
       <section className="">
         <div className="container my-10">
           <div className="d-flex justify-content-center align-content-center">
@@ -80,6 +80,12 @@ const First = () => {
 
             </ul>
           </div>
+      </section>
+      <section>
+        <div className="d-flex justify-content-center align-content-center mt-5">
+        <button className="btn btn-primary w-25 p-3">Get Started</button>
+        </div>
+      
       </section>
       <section className="vh-100 position-relative">
         <div className="container position-absolute top-50 start-0">
@@ -120,7 +126,7 @@ const First = () => {
                   </div>
                   <span className="my--5 ml-5">
                     <img src="https://via.placeholder.com/50" alt=""/>
-                  </span>
+                  </span>Started
                 </div>
               </Cards>
             </div>
