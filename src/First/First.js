@@ -1,8 +1,12 @@
 import React from "react";
+import Cards from "./Cards"
+
 import "./First.css";
+
 const First = () => {
   return (
     <>
+    
       <header id="header-one" className="vh-100 position-relative">
         <nav className="navbar navbar-light bg-light">
           <a className="navbar-brand" href="#">
@@ -18,9 +22,9 @@ const First = () => {
             </div>
           </div>
         </nav>
-        <div class="d-flex position-absolute top-50 start-50 translate-middle">
+        <div className="d-flex position-absolute top-50 start-50 translate-middle">
           <span className="text-light display-3-md text-center">
-            We help Businesses from any Country Rank Locally in other Countries Worldwide by providing an International SEO solution.
+            We help Businesses from any Country rank locally in other countries worldwide by providing an international SEO solution.
           </span>
         </div>
         <div className="position-absolute top-100 start-50 translate-middle w-50">
@@ -63,6 +67,38 @@ const First = () => {
             <div className="col">
             <div className="card shadow-soft border-light text-center p-5">
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-why" className="vh-100 vw-75 position-relative">
+      
+          <div className="position-absolute top-50 start-50 translate-middle text-light">
+            <h5 className="display-3">How does it help and benefits?</h5>
+            <ul className="list-unstyled text-start py-5">
+              <li className="" >
+                Rank higher on the seach engines for keywords provided
+              </li>
+              <li>
+                Sharing content is made easier and more eloquent with dynamic meta tags
+              </li>
+              <li>
+                Get accessible url that are meaningful and represent the structure of your services
+              </li>
+
+            </ul>
+          </div>
+      </section>
+      <section className="vh-100 position-relative">
+        <div className="container position-absolute top-50 start-0">
+          <div className="row">
+            <div className="col">
+            <h5 className="display-5">More data. More insights</h5>
+              <p>
+                With the size of our SEO databases and speed of our backlink crawler, imagine what you can achieve if you have the insights your competitors don’t.
+              </p>            </div>
+            <div className="col">
+              
             </div>
           </div>
         </div>
