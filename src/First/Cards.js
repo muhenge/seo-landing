@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Cards = () => {
+const Cards = (props) => {
   return (
     <>
-     <div className="card card-frame p-5 shadow">
+     <div className="card card-frame shadow">
         <div className="card-body">
+          {props.children}
         </div>
      </div>
     </>

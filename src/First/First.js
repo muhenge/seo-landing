@@ -30,22 +30,15 @@ const First = () => {
         <div className="position-absolute top-100 start-50 translate-middle w-50">
         <div className="row">
             <div className="col">
-              <div className="card shadow border-light text-center p-5">
-                <div className="card-body">
-                </div>
-              </div>
+              <Cards>
+
+              </Cards>
             </div>
             <div className="col ">
-              <div className="card shadow border-light text-center shadow p-5">
-                <div className="card-body">
-                </div>
-              </div>
+             <Cards></Cards>
             </div>
             <div className="col ">
-              <div className="card shadow border-light text-center p-5">
-                <div className="card-body">
-                </div>
-              </div>
+              <Cards />
             </div>
           </div>
           </div>
@@ -53,20 +46,19 @@ const First = () => {
       <section className="">
         <div className="container my-10">
           <div className="d-flex justify-content-center align-content-center">
-            <span className="display-1">How it works</span>
+            <span className="display-1 text-muted">How it works</span>
           </div>
           <div className="row justify-content-center align-content-center my-10">
             <div className="col">
-              <div className="card shadow-soft border-light text-center p-5">
-              </div>
+              <Cards>
+                
+              </Cards>
             </div>
             <div className="col">
-            <div className="card shadow-soft border-light text-center p-5">
-              </div>
+              <Cards></Cards>
             </div>
             <div className="col">
-            <div className="card shadow-soft border-light text-center p-5">
-              </div>
+              <Cards></Cards>
             </div>
           </div>
         </div>
@@ -92,14 +84,47 @@ const First = () => {
       <section className="vh-100 position-relative">
         <div className="container position-absolute top-50 start-0">
           <div className="row">
-            <div className="col">
+            <div className="col pl-5">
             <h5 className="display-5">More data. More insights</h5>
               <p>
                 With the size of our SEO databases and speed of our backlink crawler, imagine what you can achieve if you have the insights your competitors don’t.
-              </p>            </div>
+              </p>            
+              </div>
             <div className="col">
               
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="vh-100">
+        <div className="container">
+        <h5 className="display-5 text-muted text-center">Testimonials</h5>
+          <div className="row">
+            <div className="col">
+              <Cards>
+                <div className="d-flex justify-content-center align-items-center">
+                  <div className="">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                  </div>
+                  <span className="my--5 ml-5">
+                    <img src="https://via.placeholder.com/50" alt=""/>
+                  </span>
+                </div>
+              </Cards>
+            </div>
+            <div className="col">
+              <Cards>
+              <div className="d-flex justify-content-center align-items-center">
+                  <div className="">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                  </div>
+                  <span className="my--5 ml-5">
+                    <img src="https://via.placeholder.com/50" alt=""/>
+                  </span>
+                </div>
+              </Cards>
+            </div>
+            
           </div>
         </div>
       </section>
