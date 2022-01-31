@@ -48,7 +48,7 @@ const Third = () => {
       </section>
       <section className="p-5">
         <div className="container">
-          <Cards className="bg-dark-blue">
+        <Cards className="bg-dark-blue">
           <div className="text-light">
             <h5 className="display-3">How does it help and benefits?</h5>
             <ul className="list-unstyled text-start py-5">
