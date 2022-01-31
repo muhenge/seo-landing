@@ -1,0 +1,27 @@
+.bg-sky {
+  background-color: #eaebff;
+}
+
+.bg-sky-two {
+  background-color: #EDEEFF;
+}
+
+.bg-dark-blue {
+  background-color: #131B36
+}
+
+.bg-pink-custom {
+  background-color: #f0dae2
+}
+
+.round-custom {
+  border-radius: 50%;
+}
+
+.bg-blue-light {
+  background-color: #c3c6c7;
+}
+
+.border-curved {
+  border-radius: 15%;
+}

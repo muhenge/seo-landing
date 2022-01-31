@@ -1,6 +1,7 @@
 import React from "react";
 import Cards from "./Cards"
 import Header from "../Header/Header";
+import Nav from '../Nav/Nav';
 import "./First.css";
 
 const First = () => {
@@ -8,20 +9,7 @@ const First = () => {
     <>
     
       <Header id="header-one">
-        <nav className="navbar navbar-light bg-light">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
-          <div className="d-flex justify-content-end ">
-            <div className="">
-              
-            </div>
-
-            <div className="">
-              <button className="btn btn-primary">Get Started</button>
-            </div>
-          </div>
-        </nav>
+        <Nav />
         <div className="d-flex position-absolute top-50 start-50 translate-middle">
           <span className="text-light display-3-md text-center">
             We help Businesses from any Country rank locally in other countries worldwide by providing an international SEO solution.
@@ -71,10 +59,10 @@ const First = () => {
               <li className="" >
                 Rank higher on the seach engines for keywords provided
               </li>
-              <li>
+              <li className="">
                 Sharing content is made easier and more eloquent with dynamic meta tags
               </li>
-              <li>
+              <li className="">
                 Get accessible url that are meaningful and represent the structure of your services
               </li>
 
