@@ -2,6 +2,9 @@ import React from 'react';
 import  Header from "../Header/Header.js";
 import Cards from "../First/Cards.js";
 import Footer from "../Footer/Footer.js";
+import call from '../images/call.png'
+import plan from '../images/business-plan.png'
+import search from '../images/web-template.png'
 import './second.css'
 const Second = () => {
   return (
@@ -16,39 +19,68 @@ const Second = () => {
           </div>
         </div>
       </Header>
-      <section className="vh-100">
+      <section className="">
         <div className="container-fluid py-9 px-6">
           <div className="row">
             <div className="col">
-              <Cards className="bg-yellow">
-
+              <Cards className="bg-yellow p-5">
+                <div className="d-flex flex-column justify-content-center align-items-center">
+                  <div className="">
+                  <i class="fas fa-phone-volume fa-6x"></i>
+                  </div>
+                  <div className="text-dark">
+                  Book/Schedule a call with us
+                  </div>
+                </div>
               </Cards>
             </div>
             <div  className="col">
-              <Cards className="bg-black">
-
+              <Cards className="bg-black p-5 text-white">
+              <div className="d-flex flex-column justify-content-center align-items-center">
+                  <div className="">
+                  <i class="fas fa-sitemap fa-6x"></i>
+                  </div>
+                  <div className="text-white">
+                  Book/Schedule a call with us
+                  </div>
+                </div>
               </Cards>
             </div>
             <div className="col">
-              <Cards className="bg-yellow">
-
+              <Cards className="bg-yellow p-5">
+              <div className="d-flex flex-column justify-content-center align-items-center">
+                  <div className="">
+                  <i class="fas fa-laptop-code fa-6x"></i>
+                  </div>
+                  <div className="text-dark">
+                  Plan International SEO Solution Integration
+                  </div>
+                </div>
               </Cards>
             </div>
           </div>
         </div>
       </section>
-      <section className="vh-100 bg-yellow">
-        <div className="container-fluid py-9 px-6">
-          <div className="row">
-            <div className="col">
+      <section className="vh-100 bg-yellow position-relative text-dark">
+      <div className="position-absolute top-50 start-50 translate-middle text-light">
+            <h5 className="display-3">How does it help and benefits?</h5>
+            <ul className="text-start py-5 text-dark">
+              <li className="my-5 display-6" >
+                <span class=""></span> Rank higher on the seach engines for keywords provided
+              </li>
+              <li className="my-5 display-6">
+                Sharing content is made easier and more eloquent with dynamic meta tags
+              </li>
+              <li className="my-5 display-6">
+                Get accessible url that are meaningful and represent the structure of your services
+              </li>
 
-            </div>
-            <div className="col">
-            </div>
-            <div className="col">
-            </div>
+            </ul>
+            <div className="d-flex justify-content-center align-items-center">
+            <button className="btn btn-lg btn-block bg-black text-warning round mt-5 w-auto">Start for free</button>
           </div>
-        </div>
+          </div>
+          
       </section>
       <section className="vh-100">
       <div className="container-fluid py-9 px-6">
