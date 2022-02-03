@@ -17,7 +17,7 @@ const Third = () => {
   return (
     <>
       <Header className="bg-sky-two">
-        <Nav className="bg-sky"/>
+        <Nav className="bg-sky position-sticky start-100 top-0"/>
         <div className="d-flex position-absolute top-50 start-50 translate-middle">
           <span className="text-muted display-3-md text-center">
             We help Businesses from any Country rank locally in other countries worldwide by providing an international SEO solution.
